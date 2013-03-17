@@ -290,7 +290,7 @@ function OnChat(UID, sData)
 end
 
 function OnError(s)
-	Core.SendToAll(s)
+	Core.SendToProfile(0,s,Config.sHubBot)
 	print(s)
-	return true
+	--return true
 end
