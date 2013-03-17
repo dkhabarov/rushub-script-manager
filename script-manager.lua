@@ -268,7 +268,6 @@ function OnChat(UID, sData)
 		sData = sData:match("^%b<>%s+%p%S+%s+(.+)")
 		local aclbool, acl_reason = def_commands[cmd]["acl"](UID, cmd)
 		if aclbool then
-			Core.SendToUser(UID, "Command: "..prefix..cmd.." "..(sData and sData or ""), Config.sHubBot)
 			if sData and sData:find("^%-[Hh]$") then
 				local res,msg = def_commands[cmd]["man"](UID, cmd, sData)
 				if res then
