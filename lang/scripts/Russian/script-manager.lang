@@ -1,0 +1,40 @@
+-- English localization for rushub-script-manager.
+-- For documentation commands available variables:
+-- [CMD] - replaced to current command name.
+-- [CURNAME] - replaced to current script name.
+
+lang = {
+	[1] = "Запустить скрипт",
+	[2] = "Синтаксическая ошибка. См. !%s -h для получения дополнительной информации.",
+	[3] = "Скрипт \"%s\" не найден!",
+	[4] = "Скрипт \"%s\" уже запущен!",
+	[5] = "Не удалось запустить скрипт \"%s \": %s",
+	[6] = "\"%s\": успешно загружен",
+	[7] = "\r\nИМЯ:\r\n\t![CMD]\r\n\r\nСИНТАКСИС:\r\n\t![CMD] [ -h ] [ scriptname ]\r\n\r\nОПИСАНИЕ:\r\n\t[CMD] - Команда запуска скрипта.\r\n\r\nОПЦИИ:\r\n\t-h\t Показать эту справку\r\n\r\nПРИМЕР ИСПОЛЬЗОВАНИЯ:\r\n\t![CMD] [CURNAME]\r\n\r\nСМ. ТАК-ЖЕ:\r\n\t !stopscript, !lsscript, !movedownscript, !moveupscript, !restartscript",
+	[8] = "Остановить скрипт",
+	[9] = "Скрипт \"%s\" итак остановлен!",
+	[10] = "Не удалось остановить скрипт \"%s\": %s",
+	[11] = "Скрипт \"%s\" успешно остановлен",
+	[12] = "\r\n\r\nИМЯ:\r\n\t![CMD]\r\n\r\nСИНТАКСИС:\r\n\t![CMD] [ -h ] [ scriptname ]\r\n\r\nОПИСАНИЕ:\r\n\t[CMD] - команда остановки скрипта.\r\n\r\nОПЦИИ:\r\n\t-h\t Показать эту справку\r\n\r\nПРИМЕР ИСПОЛЬЗОВАНИЯ:\r\n\t![CMD] [CURNAME]\r\n\r\nСМ. ТАК-ЖЕ:\r\n\t!startscript, !lsscript, !movedownscript, !moveupscript, !restartscript",
+	[13] = "Запущен",
+	[14] = "Остановлен",
+	[15] = "Показать скрипт(ы)",
+	[16] = "\r\n\tПриоритет\tСТАТУС\t\tИМЯ\t\tИСПОЛЬЗОВАНИЕ ПАМЯТИ\r\n",
+	[17] = "\nИнформация о скрипте \"%s\":\r\n\tСтатус: %s\r\n\tИспользование памяти: %s\r\n",
+	[18] = "\r\n\r\nИМЯ:\r\n\t![CMD]\r\n\r\nСИНТАКСИС:\r\n\t![CMD] [ -h ] [ scriptname ]\r\n\r\nОПИСАНИЕ:\r\n\t[CMD] - Команда показывает информацию (статус, использование памяти) о скрипте [ scriptname.lua ]. Если [ scriptname ] не указано, покажет информацию о всех скриптах.\r\n\r\nОПЦИИ:\r\n\t-h\t Покажет эту справку\r\n\r\nПРИМЕР ИСПОЛЬЗОВАНИЯ:\r\n\t![CMD] [CURNAME] - Показать информацию о скрипте [CURNAME].\r\n\t![CMD] - Показать весь список скриптов в порядке загрузки\r\n\r\nСМ. ТАК-ЖЕ:\r\n\t !startscript, !stopscript, !movedownscript, !moveupscript, !restartscript",
+	[19] = "Отпустить скрипт",
+	[20] = "Не удалось отпустить скрипт \"%s\": %s",
+	[21] = "Успешно повышен приоритет загрузки для скрипта \"%s\" ",
+	[22] = "\r\n\r\nИМЯ:\r\n\t![CMD]\r\n\r\nСИНТАКСИС:\r\n\t![CMD] [ -h ] [ scriptname ]\r\n\r\nОПИСАНИЕ:\r\n\t[CMD] - Понижает приоритет загрузки скрипта [ scriptname ]\r\n\r\nОПЦИИ:\r\n\t-h\t Показывает эту справку\r\n\r\nПРИМЕР ИСПОЛЬЗОВАНИЯ:\r\n\t![CMD] [CURNAME] - Понизить приоритет загрузки скрипта [CURNAME]\r\n\r\nСМ. ТАК-ЖЕ:\r\n\t !startscript, !stopscript, !lsscript, !moveupscript, !restartscript",
+	[23] = "Не удалось повысить приоритет скрипта \"%s\": %s",
+	[24] = "Успешно повышен приоритет для скрипта \"%s\" ",
+	[25] = "Поднять скрипт",
+	[26] = "\r\n\r\nИМЯ:\r\n\t![CMD]\r\n\r\nСИНТАКСИС:\r\n\t![CMD] [ -h ] [ scriptname ]\r\n\r\nОПИСАНИЕ:\r\n\t[CMD] - Повышает приоритет загрузки скрипта [ scriptname ] \r\n\r\nОПЦИИ:\r\n\t-h\t Показывает эту справку\r\n\r\nПРИМЕР ИСПОЛЬЗОВАНИЯ:\r\n\t![CMD] [CURNAME] - Повысить приоритет загрузки скрипта [CURNAME].\r\n\r\nСМ. ТАК-ЖЕ:\r\n\t !startscript, !stopscript, !lsscript, !movedownscript, !restartscript",
+	[27] = "Перезапустить скрипт(ы)",
+	[28] = "Все скрипты были успешно перезагружены",
+	[29] = "Не удалось перезапустить скрипт \"%s\": %s",
+	[30] = "Скрипт \"%s\" был успешно перезагружен",
+	[31] = "\r\n\r\nИМЯ:\r\n\t![CMD]\r\n\r\nСИНТАКСИС:\r\n\t[CMD] [ -h ] [ scriptname ]\r\n\r\nОПИСАНИЕ:\r\n\t[CMD] - Команда перезапуска скриптов. Если [ scriptname ] не указано, перезапускает все скрипты.\r\n\r\nОПЦИИ:\r\n\t-h\t Показывает эту справку\r\n\r\nПРИМЕР ИСПОЛЬЗОВАНИЯ:\r\n\t![CMD] [CURNAME] - Перезапустить скрипт [CURNAME].\r\n\t!restartscript - Перезапустить все скрипты.\r\nСМ. ТАК-ЖЕ:\r\n\t !startscript, !stopscript, !lsscript, !moveupscript, !movedownscript",
+	[32] = "У вас нет прав для использования этой команды!",
+
+}
